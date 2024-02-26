@@ -1,0 +1,535 @@
+@media(max-width:1660px) {
+    #section-services .container .services-wrapper .svg-1,
+    #section-plans .container .plans-wrapper .svg-4 {
+        right: 0;
+    }
+}
+
+@media(max-width:1440px) {
+	
+}
+
+@media(max-width:1360px) {
+	header .header-top .container nav {
+        display: none;
+    }
+    header .header-top .container .logo {
+        margin-right: auto;
+    }
+}
+
+@media(max-width:1280px) {
+	header .header-menu .container nav,
+    header .header-menu .container .entrepreneurs-wrapper,
+    #section-main .container,
+    #section-services .container .services-wrapper,
+    #section-who-we-are .container,
+    #section-gallery .container .gallery-wrapper,
+    #section-partners .container .partners-wrapper,
+    #section-ads .container .ads-wrapper,
+    #section-raffles .container .raffles-wrapper,
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .item,
+    #section-influencers .container .influencers-wrapper,
+    #section-entrepreneurs .container .entrepreneurs-wrapper,
+    #section-plans .container .plans-wrapper,
+    #section-gallery .container .gallery-wrapper .gallery-slider-nav {
+        gap: 15px;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider {
+        width: calc(75% - 7.5px);
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider-nav {
+        width: calc(25% - 7.5px);   
+    }
+}
+
+@media(max-width:1100px) {
+    #section-services .container .services-wrapper,
+    #section-partners .container .partners-wrapper,
+    #section-influencers .container .influencers-wrapper,
+    #section-raffles .container .raffles-wrapper,
+    #section-entrepreneurs .container .entrepreneurs-wrapper,
+    #section-plans .container .plans-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .heading-1 {
+        font-size: 48px;
+    }
+    .heading-2,
+    #section-who-we-are .container .left .editor h2 {
+        font-size: 38px;
+    }
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .slick-list {
+        padding: 0;
+    }
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .slick-list {
+        box-shadow: 0px 5px 25px rgba(47, 128, 237, 0.2);
+        border-radius: 32px;
+    }
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .item {
+        margin: 0;
+        box-shadow: none;
+    }
+    #section-entrepreneurs .container .entrepreneurs-wrapper .item {
+        margin-bottom: 30px;
+    }
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .slick-list {
+        order: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    #section-entrepreneurs .container .entrepreneurs-wrapper .item .thumb-wrapper {
+        margin-bottom: 14px;
+    }
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .slick-arrow {
+        position: static;
+        transform: none;
+        margin: 0 15px;
+    }
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .slick-prev {
+        order: 1
+    }
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .slick-next {
+        order: 2;
+    }
+    #section-plans .container .plans-wrapper .item {
+        height: auto;
+    }
+    #section-calendar .container .calendar-wrapper .fc-event .fc-event-main:before {
+        position: static;
+        height: 10px;
+        width: 10px;
+        border: 2px solid #FAAE1A;
+    }
+    #section-calendar .container .calendar-wrapper .fc-h-event .fc-event-main-frame {
+        display: none;
+    }
+    #section-calendar .container .calendar-wrapper .fc .fc-daygrid-day-events {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    #section-calendar .container .calendar-wrapper .fc-event .fc-event-main {
+        padding: 0;
+    }
+}
+
+@media(max-width:991px) {
+    footer .container .content,
+    header .header-menu .container nav {
+        flex-wrap: wrap;
+        position: relative;
+    }
+    header .header-menu .container {
+        padding-top: 30px;
+    }
+    header .header-menu .container nav {
+        gap: 0;
+    }
+    footer .container .content nav {
+        width: 100%;
+        margin-top: 30px;
+        gap: 15px;
+    }
+    footer .container .content nav .nav-col {
+        margin: 0;
+        width: 25%;
+    }
+    footer .container .content .btn {
+        margin: 0;
+        top: 15px;
+        right: 0;
+        position: absolute;
+    }
+    footer .container .copyright {
+        margin-top: 0;
+    }
+    #section-gallery .container .gallery-wrapper {
+        flex-direction: column;
+    }
+    header .header-menu .container nav .nav-col,
+    #section-gallery .container .gallery-wrapper .gallery-slider,
+    #section-gallery .container .gallery-wrapper .gallery-slider-nav {
+        width: 100%;
+    }
+    .btn-desktop {
+        display: none;
+    }
+    #section-ads .container .ads-wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    footer .container .content nav {
+        border-top: 1px solid #27282A;
+    }
+    footer .container .content .btn {
+        position: static;
+        margin: 30px auto;
+    }
+    header .header-menu .container .btn-mobile {
+        display: flex;
+        margin-bottom: 48px;
+    }
+    #section-gallery .container .gallery-wrapper:before {
+        padding-bottom: 100%;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider {
+        height: calc(80% - 7.5px);
+        top: 0;
+        bottom: auto;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider-nav {
+        height: calc(20% - 7.5px);
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider-nav .item {
+        height: 100%;
+        width: 33.3%;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider-nav .item.active {
+        transform: none;
+    }
+
+}
+
+@media(max-width:768px) {
+    #section-main .container {
+        min-height: auto;
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    #section-main .container,
+    #section-who-we-are .container {
+        flex-direction: column;
+    }
+    #section-main .container .left,
+    #section-main .container .right,
+    #section-who-we-are .container .left,
+    #section-who-we-are .container .right,
+    footer .container .content nav .nav-col,
+    header .header-menu .container .entrepreneurs-wrapper .item {
+        width: 100%;
+    }
+    header .header-menu .container nav .nav-col ul.sub-menu,
+    header .header-menu .container nav .nav-col .btn-desktop,
+    #section-who-we-are .container .right .image-wrapper .svg-3,
+    footer .container .content nav .nav-col ul.sub-menu,
+    #section-gallery .container .gallery-wrapper:before {
+        display: none;
+    }
+    #section-lawyers .container .lawyers-wrapper:before {
+        right: 28px;
+    }
+    #section-lawyers .container .lawyers-wrapper:after {
+        height: 118px;
+        width: 118px;
+        left: -20px;
+        bottom: 15px;
+    }
+    header .header-menu .container .entrepreneurs-wrapper,
+    footer .container .content nav  {
+        flex-wrap: wrap;
+    }
+    /* header .header-menu {
+        height: 0px;
+        overflow: hidden;
+    } */
+    header .header-menu .container {
+        height: auto;
+        padding: 30px;
+    }
+    header .header-menu .container nav,
+    #section-main .container,
+    footer .container .content nav {
+        gap: 0;
+    }
+    #section-main .container .left {
+        margin-bottom: 48px;
+    }
+    header .header-menu .container .entrepreneurs-wrapper .item,
+    header .header-menu .container .entrepreneurs-wrapper .item .thumb-wrapper .thumb img {
+        border-radius: 16px;
+        overflow: hidden;
+    }
+    footer .container .content nav .nav-col ul li {
+        border-bottom: 1px solid #27282A;
+        padding: 14px 0;
+        margin: 0;
+    }
+    footer .container .content nav .nav-col .menu-item-has-children > a {
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+    footer .container .content nav .nav-col .menu-item-has-children > a:after {
+        content: '';
+        display: block;
+        height: 16px;
+        width: 16px;
+        background-image: url('../img/icons/dropdown-arrow.svg');
+        background-size: contain;
+        background-position: center;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%)rotate(180deg);
+        right: 0;
+        transition: 0.3s;
+    }
+    footer .container .content nav .nav-col .menu-item-has-children > a.active:after {
+        transform: translateY(-50%);
+    }
+    footer .container .content nav .nav-col ul.sub-menu li {
+        border: none;
+        padding: 0;
+        margin-bottom: 14px;
+    }
+    footer .container .content nav .nav-col ul.sub-menu li:last-child {
+        margin-bottom: 0;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider {
+        height: auto;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider.active,
+    #section-gallery .container .gallery-wrapper .gallery-slider-nav {
+        position: static;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider-nav {
+        flex-direction: column;
+        height: 660px;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider-nav .item {
+        height: 33.3%;
+        width: 100%;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider .item:before {
+        content: '';
+        display: block;
+        padding-bottom: 100%;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider .item .img-sep {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    footer .container .copyright {
+        display: flex;
+        flex-direction: column;
+    }
+    footer .container .copyright p {
+        text-align: center;
+    }
+    footer .container .copyright p:last-child {
+        margin-top: 10px;
+    }
+    header .header-form {
+        padding: 0;
+    }
+    header .header-form .form-wrapper {
+        height: 100%;
+        border-radius: 0;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 100px;
+    }
+    header .header-form .form-wrapper h3 {
+        margin-bottom: 24px;
+    }
+    header .header-form .form-wrapper .form-container .wpforms-submit-container {
+        margin-top: 24px;
+    }
+}
+
+@media(max-width:650px) {
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .item {
+        flex-direction: column;
+    }
+	#section-lawyers .container .lawyers-wrapper .lawyers-slider .item .thumb,
+    #section-lawyers .container .lawyers-wrapper .lawyers-slider .item .info {
+        width: 100%;
+    }
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media(max-width:550px) {
+	#section-services,
+    #section-who-we-are,
+    #section-gallery,
+    #section-partners,
+    #section-ads,
+    #section-raffles,
+    #section-lawyers,
+    #section-influencers,
+    #section-entrepreneurs,
+    #section-plans {
+        padding: 48px 0;
+        overflow: hidden;
+    }
+    #section-services .container .heading-2,
+    #section-gallery .container .heading-2,
+    #section-partners .container .heading-2,
+    #section-raffles .container .heading-2,
+    #section-lawyers .container .heading-2,
+    #section-influencers .container .heading-2,
+    #section-entrepreneurs .container .heading-2,
+    #section-plans .container .heading-2 {
+        margin-bottom: 48px;
+    }
+    #section-services .container .services-wrapper,
+    #section-partners .container .partners-wrapper,
+    #section-ads .container .ads-wrapper,
+    #section-raffles .container .raffles-wrapper,
+    #section-influencers .container .influencers-wrapper,
+    #section-entrepreneurs .container .entrepreneurs-wrapper,
+    #section-plans .container .plans-wrapper {
+        grid-template-columns: repeat(1, auto);
+    }
+    header .header-top .container .btn,
+    #section-who-we-are .container .right .image-wrapper .svg-4,
+    #section-entrepreneurs .container .entrepreneurs-wrapper .svg-3,
+    #section-entrepreneurs .container .entrepreneurs-wrapper .svg-4,
+    #section-plans,
+    #section-calendar .container .calendar-wrapper .fc .fc-daygrid-day-events:before,
+    #section-calendar .container .calendar-wrapper .fc .fc-daygrid-day-events:after,
+    #section-calendar .container .calendar-wrapper .fc .fc-daygrid-day-events .fc-daygrid-day-bottom {
+        display: none;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider:before {
+        right: 25px;
+    }
+    #section-gallery .container .gallery-wrapper .gallery-slider:after {
+        height: 108px;
+        width: 108px;
+        left: -15px;
+        bottom: -40px;
+    }
+    #section-ads .container .ads-wrapper .svg-3 {
+        top: -45px;
+        right: 0;
+    }
+    #section-ads .container .ads-wrapper .svg-4 {
+        left: -25px;
+        bottom: -50px;
+    }
+    #section-influencers .container .influencers-wrapper .svg-2 {
+        top: 0;
+        right: -25px;
+    }
+    #section-influencers .container .influencers-wrapper .svg-5 {
+        left: -10px;
+    }
+    #section-raffles .container .raffles-wrapper .svg-1 {
+        top: -20px;
+        left: auto;
+        right: -10px;
+        bottom: auto;
+    }
+    #section-raffles .container .raffles-wrapper .svg-2 {
+        transform: none;
+        left: auto;
+        right: -50%;
+        bottom: 50%;
+    }
+    #section-raffles .container .raffles-wrapper .svg-5 {
+        top: 31%;
+        left: 0;
+    }
+    #section-calendar .container .calendar-wrapper .pgcal-container {
+        background: #FFFFFF;
+        border: 1px solid #F5F5F5;
+        border-radius: 16px;
+        padding: 15px;
+    }
+    #section-calendar .container .calendar-wrapper .fc .fc-daygrid-day-number {
+        height: 32px;
+        width: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #section-calendar .container .calendar-wrapper table.fc-scrollgrid,
+    #section-calendar .container .calendar-wrapper table.fc-list-table {
+        padding: 0;
+        box-shadow: none;
+        border: none;
+        background: none;
+    }
+    #section-calendar .container .calendar-wrapper .fc .fc-toolbar-title {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    #section-calendar .container .calendar-wrapper .fc .fc-toolbar.fc-header-toolbar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    /* #section-calendar .container .calendar-wrapper .fc-button-group .fc-button {
+        width: 50%;
+    } */
+    #section-calendar .container .calendar-wrapper .fc-prev-button,
+    #section-calendar .container .calendar-wrapper .fc-next-button {
+        background: none;
+        border: none;
+        color: #1E2C3A;
+        padding: 0;
+        box-shadow: none;
+    }
+    #section-calendar .container .calendar-wrapper .fc .fc-day-today .fc-daygrid-day-number {
+        margin-bottom: 5px;
+    }
+    #section-calendar .container .calendar-wrapper .fc .fc-daygrid-day-events {
+        min-height: auto;
+        margin: 0;
+        gap: 5px;
+        justify-content: center;
+    }
+    #section-calendar .container .calendar-wrapper .fc-h-event,
+    #section-calendar .container .calendar-wrapper .fc .fc-daygrid-day-top {
+        margin: 0;
+    }
+    #section-calendar .container .calendar-wrapper .fc .fc-daygrid-day-frame {
+        padding: 5px;
+    }
+    #section-calendar .container .calendar-wrapper .fc-event .fc-event-main:before {
+        border: none;
+        height: 5px;
+        width: 5px;
+        background: #FAAE1A;
+    }
+    #section-calendar .container .calendar-wrapper table.fc-scrollgrid thead[role='rowgroup'],
+    #section-calendar .container .calendar-wrapper table.fc-scrollgrid tbody[role='rowgroup'],
+    #section-calendar .container .calendar-wrapper .fc-theme-standard td, 
+    #section-calendar .container .calendar-wrapper .fc-theme-standard th {
+        border: none;
+    }
+    #section-calendar .container .calendar-wrapper table.fc-list-table .fc-list-day-cushion {
+        background: #FFFFFF;
+    }
+    #section-calendar .container .calendar-wrapper table.fc-scrollgrid thead[role='rowgroup'],
+    #section-calendar .container .calendar-wrapper table.fc-list-table .fc-list-day-cushion {
+        border: 1px solid #F5F5F5;
+        border-radius: 6px;
+    }
+    #section-calendar .container .calendar-wrapper table.fc-scrollgrid thead[role='rowgroup'] .fc-col-header-cell-cushion,
+    #section-calendar .container .calendar-wrapper table.fc-list-table .fc-list-day-cushion {
+        font-size: 14px;
+        font-weight: 600;
+        color: #667694;
+        padding: 11px 8px;
+    }
+}
+
+@media(max-width:480px) {
+
+}
